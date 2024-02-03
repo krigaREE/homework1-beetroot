@@ -177,7 +177,7 @@ body {
 }
 
 .video-background video {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
