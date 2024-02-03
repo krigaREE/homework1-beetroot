@@ -27,13 +27,16 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
-
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
 
 }
 
 .right-panel {
     width: 73%;
     padding: 20px;
+    color: #00ff00;
 }
 
 .details {
@@ -46,6 +49,7 @@ body {
     padding-bottom: 15px;
     padding-top: 15px;
     text-decoration: none !important;
+    color: fuchsia;
 }
 
 .small-text {
@@ -60,3 +64,51 @@ h1, h2, h3 {
     margin: 0;
 }
 
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #00ff00;
+    color: fuchsia;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #3E8E41;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    overflow: hidden;
+}
+
+video {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: White;
+}
