@@ -306,4 +306,312 @@ body, html {
     margin: 0;
 }
 
+header, footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-links li a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    text-align: center;
+}
+
+.nav-links li a:hover {
+    color: #4db8ff; /* Adjust color based on your theme */
+    text-align: center;
+}
+
+.footer-content {
+    text-align: center;
+
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socials li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.socials li a:hover {
+    color: #4db8ff; /* Adjust color based on your theme */
+}
+header, footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links li a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+    color: #4db8ff; /* Adjust color based on your theme */
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socials li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.socials li a:hover {
+    color: #4db8ff; /* Adjust color based on your theme */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding-bottom: 20px; /* Adjust this value to create more space above the footer */
+}
+
+footer {
+    width: 100%;
+    height: 330px; /* Adjust based on your content */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 50px 0; /* Increase padding for a bigger footer */
+    padding-top: 60px;
+}
+
+.github-panel {
+    margin-bottom: 50px; /* Adjust the space between the GitHub panel and the footer */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Ensures that the container takes up all available space, pushing the footer down */
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Adjust if needed based on your layout */
+}
+img[src="img/logo.png"] {
+    max-width: 100px; /* Adjusts the logo's width to fit your layout */
+    height: auto; /* Keeps the aspect ratio intact */
+    display: flex; /* Ensures the logo is centered if necessary */
+    margin: 0 auto; /* Centers the logo horizontally */
+    opacity: 0.6; /* Optional: makes the logo slightly transparent */
+    text-align: left;
+}
+
+/* Styles for the header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Example background */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px; /* Max width for the navbar content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin-left: -200px;
+}
+
+.nav-links li {
+    padding: 0 12px; /* Adjust spacing between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff; /* Adjust link color */
+}
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+}
+/* Ensures the body takes up the full viewport height */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Centers header content */
+header {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 10%; /* Takes up the full viewport height */
+    text-align: center;
+    margin-right: -450px;
+}
+
+/* Additional styles for the header */
+header nav {
+    text-align: center;
+}
+
+/* Style for nav items, if needed */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px; /* Adjust spacing between nav items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* Adjust color as needed */
+}
+
+/* Style for highlighting a section */
+.highlight {
+    border: 2px solid #e00fdd; /* Example highlight style */
+    padding: 10px; /* Adjust as needed */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.rocket {
+    position: absolute;
+    bottom: -50px; /* Start off-screen */
+    animation: rocketJump 5s infinite ease-in-out;
+    /* Randomize left position for each rocket if you have multiple */
+}
+
+@keyframes rocketJump {
+    from {
+        transform: translateY(100vh); /* Start from bottom */
+    }
+    to {
+        transform: translateY(-100vh); /* Move to top */
+    }
+}
+/* Ensure the container of your content has a higher z-index */
+.container {
+    position: relative; /* Required for z-index to work */
+    z-index: 2; /* Higher than the rocket's z-index */
+}
+
+/* Adjust the rocket's z-index to ensure it's below the content */
+.rocket {
+    position: absolute;
+    bottom: -50px; /* Start off-screen */
+    z-index: 1; /* Ensure this is lower than the content's z-index */
+    animation: rocketJump 5s infinite ease-in-out;
+}
+
+@keyframes rocketJump {
+    from {
+        transform: translateY(100vh); /* Start from bottom */
+    }
+    to {
+        transform: translateY(-100vh); /* Move to top */
+    }
+}
+
+/* Ensure the body and html tags do not limit the visibility of content */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
