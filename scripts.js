@@ -40,5 +40,166 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault(); // Prevent default anchor behavior
+
+            const targetId = this.getAttribute('data-target');
+            const targetSection = document.getElementById(targetId);
+
+            // Remove highlight from all sections
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.remove('highlight');
+            });
+
+            // Highlight the target section
+            if (targetSection) {
+                targetSection.classList.add('highlight');
+            }
+        });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const rocket = document.createElement('div');
+    rocket.classList.add('rocket');
+    rocket.textContent = '🚀'; // Example content
+    document.body.appendChild(rocket);
+
+    // Optionally set random horizontal positions
+    rocket.style.left = `${Math.random() * 100}%`;
+});
